@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F48FB1"
+    android:orientation="vertical"
+    tools:context="com.example.android.javagitdevs.ProfileDetails">
+
+
+    <ImageView
+        android:id="@+id/profile_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/username_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="#E91E63"
+        tools:text="username"
+        android:textColor="#FCE4EC"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/profile_url_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:text="profile url"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:background="#C2185B"
+        android:textColor="#FCE4EC"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/button_share_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="share"
+        />
+
+</LinearLayout>
